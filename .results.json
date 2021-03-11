@@ -1,0 +1,58 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2021-03-11T03:31:48.036Z",
+    "end": "2021-03-11T03:31:52.054Z",
+    "duration": 4018
+  },
+  "tests": [
+    {
+      "title": "must return password with length 140",
+      "fullTitle": "\"$ node password 140 1\" command must return password with length 140",
+      "duration": 2005,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: timeout of 2000ms exceeded. Ensure the done() callback is being called in this test.\n    at listOnTimeout (internal/timers.js:549:17)\n    at processTimers (internal/timers.js:492:7)",
+        "message": "timeout of 2000ms exceeded. Ensure the done() callback is being called in this test."
+      }
+    },
+    {
+      "title": "must return password with length 10",
+      "fullTitle": "\"$ node password 10 2\" command must return password with length 10",
+      "duration": 2005,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: timeout of 2000ms exceeded. Ensure the done() callback is being called in this test.\n    at listOnTimeout (internal/timers.js:549:17)\n    at processTimers (internal/timers.js:492:7)",
+        "message": "timeout of 2000ms exceeded. Ensure the done() callback is being called in this test."
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "must return password with length 140",
+      "fullTitle": "\"$ node password 140 1\" command must return password with length 140",
+      "duration": 2005,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: timeout of 2000ms exceeded. Ensure the done() callback is being called in this test.\n    at listOnTimeout (internal/timers.js:549:17)\n    at processTimers (internal/timers.js:492:7)",
+        "message": "timeout of 2000ms exceeded. Ensure the done() callback is being called in this test."
+      }
+    },
+    {
+      "title": "must return password with length 10",
+      "fullTitle": "\"$ node password 10 2\" command must return password with length 10",
+      "duration": 2005,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: timeout of 2000ms exceeded. Ensure the done() callback is being called in this test.\n    at listOnTimeout (internal/timers.js:549:17)\n    at processTimers (internal/timers.js:492:7)",
+        "message": "timeout of 2000ms exceeded. Ensure the done() callback is being called in this test."
+      }
+    }
+  ],
+  "passes": []
+}
